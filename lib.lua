@@ -11,10 +11,6 @@ require = function(module)
     return originalRequire(module)
 end
 
-os.execute = function(...) print("os.execute function disabled!") end
-io.popen = function(...) print("io.popen function disabled!") end
-os.remove = function(...) print("os.remove function disabled!") end
-
 math.randomseed(os.time())
 
 dofile("core/enums.lua")
