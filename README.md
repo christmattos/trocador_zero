@@ -1,5 +1,7 @@
 # trocador_zero
 
+[![GitHub release](https://img.shields.io/github/v/release/christmattos/trocador_zero)](https://github.com/christmattos/trocador_zero/releases)
+
 trocador_zero is a small Windows launcher for ZeroBot. It starts ZeroBot and then replaces its `lib.lua`, so scripts can use `os.execute`, `io.popen` and `os.remove` again.
 
 ## Features
@@ -7,6 +9,12 @@ trocador_zero is a small Windows launcher for ZeroBot. It starts ZeroBot and the
 - Replaces ZeroBot's `lib.lua` after a configurable delay
 - Re-enables `os.execute`, `io.popen` and `os.remove`, which the stock `lib.lua` disables
 - Plain `config.ini`, created on first run
+
+## Downloads
+
+- [Windows](https://github.com/christmattos/trocador_zero/releases)
+
+The release only contains `launcher.exe`. You also need [`lib.lua`](lib.lua) from this repository.
 
 ## Usage
 
@@ -34,7 +42,7 @@ Relative paths in `path_lib_zero` and `path_lib_new` are resolved from the folde
 
 ## Building
 
-Requires MinGW.
+Requires MinGW. The release is built with GCC 16 for 64-bit Windows.
 
 ```sh
 gcc -static-libgcc trocador.c -o launcher.exe
