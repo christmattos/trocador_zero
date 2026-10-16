@@ -12,7 +12,8 @@ O `lib.lua` daqui é o mesmo do ZeroBot sem as linhas que desativam `os.execute`
 
 ## Uso
 
-1. Coloque `launcher.exe` e `lib.lua` na mesma pasta.
+1. Baixe o `launcher.exe` na página de [releases](https://github.com/christmattos/trocador_zero/releases)
+   e coloque na mesma pasta do `lib.lua` deste repositório.
 2. Rode `launcher.exe` uma vez. Se não existir `config.ini`, ele cria um com valores padrão.
 3. Ajuste o `config.ini` e rode de novo.
 
@@ -40,5 +41,5 @@ Com MinGW:
 gcc trocador.c -o launcher.exe
 ```
 
-O `launcher.exe` do repositório foi gerado com MinGW GCC 6.3 e depende de `libgcc_s_dw2-1.dll`.
+O `launcher.exe` da release foi gerado com MinGW GCC 6.3 e depende de `libgcc_s_dw2-1.dll`.
 Para não depender da DLL, compile com `-static-libgcc`.
