@@ -6,6 +6,10 @@ com o `lib.lua` deste repositório.
 O `lib.lua` daqui é o mesmo do ZeroBot sem as linhas que desativam `os.execute`, `io.popen` e
 `os.remove`. Com a troca, os scripts voltam a poder usar essas funções.
 
+> **Aviso:** projeto pessoal e experimental, sem garantia de nenhum tipo. Não use em produção. Quem
+> usar assume todo o risco; o autor não se responsabiliza por nenhum dano, perda de dados, banimento
+> de conta ou qualquer outra consequência do uso deste código.
+
 ## Uso
 
 1. Coloque `launcher.exe` e `lib.lua` na mesma pasta.
