@@ -51,3 +51,7 @@ gcc -static-libgcc trocador.c -o launcher.exe
 ## Disclaimer
 
 This is a personal, experimental project, provided as is and without warranty of any kind. Do not use it in production. You use it at your own risk: the author is not responsible for any damage, data loss, account ban or other consequence of using this code.
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
